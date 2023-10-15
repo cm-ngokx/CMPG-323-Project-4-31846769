@@ -121,7 +121,7 @@
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="540,549" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="CMPG323 EcoPower Logistics Data.xlsx">
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="540,549" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_2" ResizeWindow="None" WorkbookPath="C:\Users\User\OneDrive\Documents\CMPG 3rd yr\cmpg323\Project4\CMPG323 EcoPower Logistics Data.xlsx">
                 <ueab:ExcelApplicationCard.Body>
                   <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                     <ActivityAction.Argument>
@@ -152,6 +152,9 @@
               <DelegateInArgument x:TypeArguments="sd:DataRow" Name="Orders" />
             </ActivityAction.Argument>
             <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,275" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="RowToGet" />
+              </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -159,7 +162,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <ui:GetRowItem Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="OrderId" DisplayName="Get Row Item" sap:VirtualizedContainerService.HintSize="334,187" sap2010:WorkflowViewState.IdRef="GetRowItem_1" Row="[Orders]">
                 <ui:GetRowItem.Value>
-                  <OutArgument x:TypeArguments="x:Object">[OrderId]</OutArgument>
+                  <OutArgument x:TypeArguments="x:String">[RowToGet]</OutArgument>
                 </ui:GetRowItem.Value>
               </ui:GetRowItem>
             </Sequence>
