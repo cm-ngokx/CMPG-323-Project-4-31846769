@@ -1,8 +1,13 @@
 # CMPG-323-Project-4-31846769
 We were required to employ UiPath automation to conduct testing on a .NET website application, populate it with data from an Excel file, and record the outcomes in the same Excel file that was provided to us.
 ## How it works:
+website address: https://cmpg323-ecopowerlogistics.azurewebsites.net/
+### Login
+The UiPath automation process involves retrieving credentials stored in the UiPath Orchestrator and subsequently using them to log in.
+### The rest of the progam
+The UiPath automation will proceed to perform tasks such as creating, editing, and deleting records, and it will also track the completion status for customer, order, product, and order details operations.
 
-## Username used to add the data to the database through the web application
+## Username used to add the data to the database through the web application:
 Email: cherishmilcher@gmail.com
 Password: #Cherish@123
 
