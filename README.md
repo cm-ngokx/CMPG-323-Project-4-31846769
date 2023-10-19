@@ -14,6 +14,14 @@ Password: #Cherish@123
 ## Proof that the process has been publish:
 ![Proof-Of-Publishing](https://github.com/cm-ngokx/CMPG-323-Project-4-31846769/assets/127525159/9813eef0-4cc5-44bf-a604-e6ffbe27d155)
 
+### link to uipath orchestrator
+https://cloud.uipath.com/northpwkrork/DefaultTenant/orchestrator_/processes?tid=49873&fid=797169&index=0&size=10&state=M4ewTgLgPgZglgUwDYBMoDsCGBbBUVxgIDGEcI6UmwxAevQCQAMUDAjFAExQDMUALAF1BQA%3D
+
+#### use the folloing to login to uipath orchestrator:
+username: 31846769@mynwu.ac.za
+password: #Cherish@123
+and play the uipath automation process
+
 ## Reference
 Smith, J. (2018). Robotic Process Automation (RPA) in the Enterprise: A Comprehensive Review. Harvard Business Review, 95(4), 67-75.
 
